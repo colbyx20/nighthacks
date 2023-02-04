@@ -5,15 +5,15 @@ function Home(){
 
     return(
 
-    <div className="App">
-        <div>
-            <Navbar />
+        <div className="App">
+            <div>
+                <Navbar />
+            </div>
+        
+            <div>
+                <Button />
+            </div> 
         </div>
-    
-        <div>
-            <Button />
-        </div> 
-    </div>
     )
 }
 
