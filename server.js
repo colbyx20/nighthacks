@@ -8,4 +8,17 @@ app.get('/hi', (req,res) => {
     res.send("TESTING");
 });
 
+app.post('/hi', (req,res) => {
+    res.send("TESTING");
+});
+
+app.put('/hi', (req,res) => {
+    res.send("TESTING");
+});
+
+app.delete('/hi', (req,res) => {
+    res.send("TESTING");
+});
+
+
 app.listen(4000);
