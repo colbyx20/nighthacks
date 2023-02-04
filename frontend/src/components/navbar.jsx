@@ -1,3 +1,4 @@
+
 function Navbar(){
 
 
@@ -5,11 +6,7 @@ function Navbar(){
     <>
         <div className="flexContainer">
             <div className="innernav">
-                HI
-            </div>
-     
-            <div className="Tips">
-                hi2
+                Home
             </div>
 
             <div className="Tips">
@@ -25,7 +22,7 @@ function Navbar(){
             </div>
 
             <div className="aboutus">
-                About Us
+                <a href = "AboutUs" >About Us</a>
             </div>
 
         </div>

@@ -14,10 +14,15 @@ height: 30px;
 
 }
 
+/* .hackimage{
+
+} */
+
 .myHeader{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items:center;
 }
 
 .myHeader > div{

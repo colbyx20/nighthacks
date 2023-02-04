@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import '../App.css'
 
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
         <div className="App">
                 <Header />
                 <Navbar />
+                <Footer />
         </div>
     )
 }
