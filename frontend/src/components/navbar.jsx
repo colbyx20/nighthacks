@@ -3,15 +3,29 @@ function Navbar(){
 
     return (
     <>
-        {/* parent*/}
         <div className="flexContainer">
-            {/* child of flexContainer */}
             <div className="innernav">
                 HI
             </div>
-        {/* sibling of innernav */}
-            <div>
+     
+            <div className="Tips">
                 hi2
+            </div>
+
+            <div className="Tips">
+                Tips
+            </div>
+
+            <div className="Counselors">
+                Counselors
+            </div>
+
+            <div className="faqs">
+                FAQs
+            </div>
+
+            <div className="aboutus">
+                About Us
             </div>
 
         </div>

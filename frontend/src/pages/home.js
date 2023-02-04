@@ -1,18 +1,15 @@
 import Navbar from "../components/navbar";
-import Button from "../components/button";
+import Header from "../components/header";
+import '../App.css'
+
 function Home(){
 
 
     return(
 
         <div className="App">
-            <div>
+                <Header />
                 <Navbar />
-            </div>
-        
-            <div>
-                <Button />
-            </div> 
         </div>
     )
 }
