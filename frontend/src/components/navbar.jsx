@@ -1,4 +1,4 @@
-
+import '../App.css'
 function Navbar(){
 
 
@@ -6,19 +6,19 @@ function Navbar(){
     <>
         <div className="flexContainer">
             <div className="innernav">
-                Home
+                <a href="/">Home</a>
             </div>
 
             <div className="Tips">
-                Tips
+                <a href="Tips">Tips</a>
             </div>
 
             <div className="Counselors">
-                Counselors
+                <a href=" Counselors"> Counselors</a>
             </div>
 
             <div className="faqs">
-                FAQs
+                <a href="FAQS">FAQs</a>
             </div>
 
             <div className="aboutus">
