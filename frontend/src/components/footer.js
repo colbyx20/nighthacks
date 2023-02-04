@@ -1,9 +1,16 @@
+import '../App.css';
+
 function Footer(){
+
 
 
     return(
 
-        <div className="footer" style={{minHeight: "100vh"}}>Footer</div>
+        <div className="footer">
+            
+        
+            
+        </div>
     )
 }
 
